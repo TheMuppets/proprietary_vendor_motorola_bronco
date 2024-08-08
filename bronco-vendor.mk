@@ -346,6 +346,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bronco/proprietary/vendor/lib/rfsa/adsp/libmctfengine_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libmctfengine_skel.so \
     vendor/motorola/bronco/proprietary/vendor/lib/vendor.qti.hardware.camera.aon@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.aon@1.0-service-impl.so \
     vendor/motorola/bronco/proprietary/vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
+    vendor/motorola/bronco/proprietary/vendor/lib64/bronco_arcsoft_portrait_super_night_se_raw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bronco_arcsoft_portrait_super_night_se_raw.bin \
+    vendor/motorola/bronco/proprietary/vendor/lib64/bronco_arcsoft_super_night_raw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bronco_arcsoft_super_night_raw.bin \
+    vendor/motorola/bronco/proprietary/vendor/lib64/bronco_arcsoft_super_night_se_raw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bronco_arcsoft_super_night_se_raw.bin \
     vendor/motorola/bronco/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_u.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_u.bin \
     vendor/motorola/bronco/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gc02m1b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gc02m1b_otp.so \
     vendor/motorola/bronco/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_ov50a_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p128e_ov50a_eeprom.so \
@@ -516,6 +519,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bronco/proprietary/vendor/lib64/libaidenoiserv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiserv2.so \
     vendor/motorola/bronco/proprietary/vendor/lib64/libancbase_rt_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libancbase_rt_fusion.so \
     vendor/motorola/bronco/proprietary/vendor/lib64/libarcsoft_chi_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_chi_utils.so \
+    vendor/motorola/bronco/proprietary/vendor/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_distortion_correction.so \
+    vendor/motorola/bronco/proprietary/vendor/lib64/libarcsoft_dual_sat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dual_sat.so \
+    vendor/motorola/bronco/proprietary/vendor/lib64/libarcsoft_dual_zoomtranslator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dual_zoomtranslator.so \
     vendor/motorola/bronco/proprietary/vendor/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_detection.so \
     vendor/motorola/bronco/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
     vendor/motorola/bronco/proprietary/vendor/lib64/libarcsoft_mcxmflpolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_mcxmflpolicy.so \
@@ -546,6 +552,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bronco/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/motorola/bronco/proprietary/vendor/lib64/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchilog.so \
     vendor/motorola/bronco/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
+    vendor/motorola/bronco/proprietary/vendor/lib64/libdualcam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_optical_zoom_control.so \
+    vendor/motorola/bronco/proprietary/vendor/lib64/libdualcam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_video_optical_zoom.so \
     vendor/motorola/bronco/proprietary/vendor/lib64/libets_teeclient_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_teeclient_v3.so \
     vendor/motorola/bronco/proprietary/vendor/lib64/libeye_tracking_dsp_sample_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeye_tracking_dsp_sample_stub.so \
     vendor/motorola/bronco/proprietary/vendor/lib64/libface3d_dev.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libface3d_dev.so \

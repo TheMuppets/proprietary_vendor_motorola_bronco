@@ -19,6 +19,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bronco/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
     vendor/motorola/bronco/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
     vendor/motorola/bronco/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/motorola/bronco/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd \
+    vendor/motorola/bronco/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.7.0_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.7.0_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd \
+    vendor/motorola/bronco/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.2_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.2_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd \
+    vendor/motorola/bronco/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.3_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.3_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd \
+    vendor/motorola/bronco/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__eai_1.43_enpu2.pmd \
+    vendor/motorola/bronco/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/motorola/bronco/proprietary/vendor/etc/acdbdata/waipio_mtp_hdr/MTP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp_hdr/MTP_acdb_cal.acdb \
     vendor/motorola/bronco/proprietary/vendor/etc/acdbdata/waipio_mtp_hdr/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_mtp_hdr/MTP_workspaceFile.qwsp \
     vendor/motorola/bronco/proprietary/vendor/etc/camera/aec_golden_wide.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aec_golden_wide.bin \

@@ -123,19 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bronco/proprietary/vendor/firmware/goodix-tianma-gt9916P-22121609-639cb3f-bronco.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-tianma-gt9916P-22121609-639cb3f-bronco.bin \
     vendor/motorola/bronco/proprietary/vendor/firmware/mot_dw9784.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_dw9784.prog \
     vendor/motorola/bronco/proprietary/vendor/firmware/tianma_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tianma_goodix_cfg_group.bin \
-    vendor/motorola/bronco/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_bronco_gc02m1b_tsp.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_bronco_gc02m1b_tsp.bin \
-    vendor/motorola/bronco/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_bronco_hi1336_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_bronco_hi1336_qtech.bin \
-    vendor/motorola/bronco/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_bronco_ov32b40_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_bronco_ov32b40_qtech.bin \
-    vendor/motorola/bronco/proprietary/vendor/lib/camera/com.qti.sensormodule.mot_bronco_ov50a_sunny.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.mot_bronco_ov50a_sunny.bin \
-    vendor/motorola/bronco/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
-    vendor/motorola/bronco/proprietary/vendor/lib/camera/com.qti.tuned.mot_bronco_gc02m1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_bronco_gc02m1b.bin \
-    vendor/motorola/bronco/proprietary/vendor/lib/camera/com.qti.tuned.mot_bronco_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_bronco_hi1336.bin \
-    vendor/motorola/bronco/proprietary/vendor/lib/camera/com.qti.tuned.mot_bronco_ov32b40.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_bronco_ov32b40.bin \
-    vendor/motorola/bronco/proprietary/vendor/lib/camera/com.qti.tuned.mot_bronco_ov50a.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.mot_bronco_ov50a.bin \
-    vendor/motorola/bronco/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
-    vendor/motorola/bronco/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
-    vendor/motorola/bronco/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
-    vendor/motorola/bronco/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
     vendor/motorola/bronco/proprietary/vendor/lib64/bronco_arcsoft_portrait_super_night_se_raw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bronco_arcsoft_portrait_super_night_se_raw.bin \
     vendor/motorola/bronco/proprietary/vendor/lib64/bronco_arcsoft_super_night_raw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bronco_arcsoft_super_night_raw.bin \
     vendor/motorola/bronco/proprietary/vendor/lib64/bronco_arcsoft_super_night_se_raw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bronco_arcsoft_super_night_se_raw.bin \
@@ -164,7 +151,13 @@ PRODUCT_PACKAGES += \
     com.qti.sensor.mot_hi1336 \
     com.qti.sensor.mot_ov32b40 \
     com.qti.sensor.mot_ov50a \
+    com.arcsoft.node.dc_capture \
+    com.arcsoft.node.dc_preview \
+    com.arcsoft.node.smooth_transition \
+    com.arcsoft.node.supernightraw \
     com.mot.node.c2d \
+    com.mot.node.hdr \
+    com.mot.node.scene_detect \
     com.qti.camx.chiiqutils \
     com.qti.eisv2 \
     com.qti.eisv3 \
@@ -231,6 +224,7 @@ PRODUCT_PACKAGES += \
     com.vidhance.node.ica \
     com.vidhance.node.processing \
     com.vidhance.stats.aec_dmbr \
+    libdepthmapwrapper_secure \
     camx.device@3.2-impl \
     camx.device@3.3-impl \
     camx.device@3.4-ext-impl \
@@ -249,6 +243,7 @@ PRODUCT_PACKAGES += \
     camx.provider@2.7-legacy \
     com.qti.chiusecaseselector \
     com.qti.feature2.anchorsync \
+    com.qti.feature2.arcrawpro \
     com.qti.feature2.demux \
     com.qti.feature2.derivedoffline \
     com.qti.feature2.frameselect \
@@ -288,15 +283,36 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.mcx.usecase.extension \
     camera.qcom \
     com.qti.chi.override \
+    libAncHumanSegFigureFusion \
     libFace3DTA \
     libFace3D_hlos \
+    libPlatformValidatorShared \
     libQ6MSFR_manager_stub \
+    libRbsFlow \
+    libSNPE \
+    libSnpeHtpPrepare \
+    libSnpeHtpV68Stub \
+    libSnpeHtpV69Stub \
     liba2d_helper \
     libaidenoiser \
     libaidenoiserv2 \
+    libancbase_rt_fusion \
     libarcsoft_chi_utils \
+    libarcsoft_distortion_correction \
+    libarcsoft_dual_sat \
+    libarcsoft_dual_zoomtranslator \
+    libarcsoft_hdr_detection \
+    libarcsoft_high_dynamic_range \
+    libarcsoft_mcxmflpolicy \
+    libarcsoft_portrait_super_night_se_raw \
+    libarcsoft_qnnhtp \
+    libarcsoft_super_night_raw \
+    libarcsoft_super_night_se_raw \
     libbitmlengine \
     libbitmlenginev2 \
+    libc++_shared \
+    libcalculator \
+    libcalculator_htp \
     libcamera_nn_stub \
     libcamerapostproc \
     libcamxcommonutils \
@@ -315,9 +331,14 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libchilog \
     libcom.qti.chinodeutils \
+    libdualcam_optical_zoom_control \
+    libdualcam_video_optical_zoom \
+    libets_teeclient_v3 \
+    libeye_tracking_dsp_sample_stub \
     libface3d_dev \
     libhdr10plus \
     libhme \
+    libhta \
     libipebpsstriping \
     libipebpsstriping170 \
     libipebpsstriping480 \
@@ -334,6 +355,7 @@ PRODUCT_PACKAGES += \
     libmot_engine_settings \
     libmotcameramodulemonitor \
     libmotoisdataqueue \
+    libmpbase \
     libopencv \
     libopencv3a \
     libopestriping \
@@ -348,56 +370,20 @@ PRODUCT_PACKAGES += \
     libsfeShiftExtrapolation \
     libsn100u_fw \
     libsn220u_fw \
+    libsnpe_dsp_domains_v2 \
+    libsnpe_loader \
     libswregistrationalgo \
     libsynx \
     libtfestriping \
     libthreadutils \
     libubifocus \
     libvidhance \
-    vendor.qti.hardware.camera.aon@1.0-service-impl \
-    vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    libvideoutils \
-    com.arcsoft.node.dc_capture \
-    com.arcsoft.node.dc_preview \
-    com.arcsoft.node.smooth_transition \
-    com.arcsoft.node.supernightraw \
-    com.mot.node.hdr \
-    com.mot.node.scene_detect \
-    libdepthmapwrapper_secure \
-    com.qti.feature2.arcrawpro \
-    libAncHumanSegFigureFusion \
-    libPlatformValidatorShared \
-    libRbsFlow \
-    libSNPE \
-    libSnpeHtpPrepare \
-    libSnpeHtpV68Stub \
-    libSnpeHtpV69Stub \
-    libancbase_rt_fusion \
-    libarcsoft_distortion_correction \
-    libarcsoft_dual_sat \
-    libarcsoft_dual_zoomtranslator \
-    libarcsoft_hdr_detection \
-    libarcsoft_high_dynamic_range \
-    libarcsoft_mcxmflpolicy \
-    libarcsoft_portrait_super_night_se_raw \
-    libarcsoft_qnnhtp \
-    libarcsoft_super_night_raw \
-    libarcsoft_super_night_se_raw \
-    libc++_shared \
-    libcalculator \
-    libcalculator_htp \
-    libdualcam_optical_zoom_control \
-    libdualcam_video_optical_zoom \
-    libets_teeclient_v3 \
-    libeye_tracking_dsp_sample_stub \
-    libhta \
-    libmpbase \
-    libsnpe_dsp_domains_v2 \
-    libsnpe_loader \
     nfc_nci.nqx.default.hw \
     se_nq_extn_client \
     vendor.egistec.hardware.fingerprint@4.0 \
     vendor.nxp.hardware.nfc@2.0 \
+    vendor.qti.hardware.camera.aon@1.0-service-impl \
+    vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.fingerprint@1.0 \
     bm2n08 \
     bm2n09 \

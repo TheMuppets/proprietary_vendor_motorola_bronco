@@ -8409,8 +8409,6 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib64/libpn557_fw.so",
             ],
-            shared_libs: [
-            ],
         },
     },
     compile_multilib: "64",
@@ -8428,8 +8426,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libpn560_fw.so",
-            ],
-            shared_libs: [
             ],
         },
     },
@@ -8613,8 +8609,6 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib64/libsn100u_fw.so",
             ],
-            shared_libs: [
-            ],
         },
     },
     compile_multilib: "64",
@@ -8632,8 +8626,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libsn220u_fw.so",
-            ],
-            shared_libs: [
             ],
         },
     },

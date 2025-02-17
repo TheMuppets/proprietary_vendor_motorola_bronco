@@ -3131,6 +3131,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bronco/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc \
     vendor/motorola/bronco/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
     vendor/motorola/bronco/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
+    vendor/motorola/bronco/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
+    vendor/motorola/bronco/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/motorola/bronco/proprietary/vendor/etc/jiigan/jiigan_model.data:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/jiigan_model.data \
     vendor/motorola/bronco/proprietary/vendor/etc/libnfc-PN557.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-PN557.conf \
     vendor/motorola/bronco/proprietary/vendor/etc/libnfc-PN560.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-PN560.conf \
@@ -3233,6 +3235,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bronco/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
+    android.hardware.secure_element@1.0-impl \
     com.mot.eeprom.mot_gc02m1b_otp \
     com.mot.eeprom.mot_gt24p128e_ov50a_eeprom \
     com.mot.eeprom.mot_gt24p64b_hi1336_eeprom \
@@ -3374,6 +3377,8 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.mcx.usecase.extension \
     camera.qcom \
     com.qti.chi.override \
+    vendor.qti.esepowermanager@1.1-impl \
+    jcos_nq_client \
     libAncHumanSegFigureFusion \
     libFace3DTA \
     libFace3D_hlos \
@@ -3425,6 +3430,7 @@ PRODUCT_PACKAGES += \
     libcom.qti.chinodeutils \
     libdualcam_optical_zoom_control \
     libdualcam_video_optical_zoom \
+    libesesbprovision \
     libets_teeclient_v3 \
     libeye_tracking_dsp_sample_stub \
     libface3d_dev \
@@ -3470,10 +3476,13 @@ PRODUCT_PACKAGES += \
     libthreadutils \
     libubifocus \
     libvidhance \
+    ls_nq_client \
     nfc_nci.nqx.default.hw \
     se_nq_extn_client \
     vendor.egistec.hardware.fingerprint@4.0 \
     vendor.nxp.hardware.nfc@2.0 \
+    vendor.qti.esepowermanager@1.0 \
+    vendor.qti.esepowermanager@1.1 \
     vendor.qti.hardware.camera.aon@1.0-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.fingerprint@1.0 \
@@ -3500,4 +3509,6 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service-ets \
     vendor.nxp.hardware.nfc@2.0-service \
     vendor.qti.camera.provider@2.7-service_64 \
+    vendor.qti.esepowermanager@1.1-service \
+    vendor.qti.secure_element@1.2-service \
     motsettings

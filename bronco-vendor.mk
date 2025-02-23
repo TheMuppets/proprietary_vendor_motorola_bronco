@@ -3120,8 +3120,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/bronco/proprietary/vendor/etc/camera/mot_engine_config.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_engine_config.bin \
     vendor/motorola/bronco/proprietary/vendor/etc/camera/vidhance.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance.lic \
     vendor/motorola/bronco/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
+    vendor/motorola/bronco/proprietary/vendor/etc/display/factory_calib_data_mipi_mot_vid_csot_1080p_dsc_655_144hz.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/factory_calib_data_mipi_mot_vid_csot_1080p_dsc_655_144hz.json \
+    vendor/motorola/bronco/proprietary/vendor/etc/display/factory_calib_data_mipi_mot_vid_tianma_1080p_dsc_655_144hz.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/factory_calib_data_mipi_mot_vid_tianma_1080p_dsc_655_144hz.json \
     vendor/motorola/bronco/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_csot_1080p_dsc_655_144hz.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_csot_1080p_dsc_655_144hz.json \
     vendor/motorola/bronco/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_tianma_1080p_dsc_655_144hz.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_tianma_1080p_dsc_655_144hz.json \
+    vendor/motorola/bronco/proprietary/vendor/etc/display/qdcm_merge_rules_mipi_mot_vid_csot_1080p_dsc_655_144hz.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_merge_rules_mipi_mot_vid_csot_1080p_dsc_655_144hz.json \
     vendor/motorola/bronco/proprietary/vendor/etc/display/qdcm_merge_rules_mipi_mot_vid_tianma_1080p_dsc_655_144hz.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_merge_rules_mipi_mot_vid_tianma_1080p_dsc_655_144hz.json \
     vendor/motorola/bronco/proprietary/vendor/etc/eva/facedetection/model3.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/model3.dat \
     vendor/motorola/bronco/proprietary/vendor/etc/face3d/qcnn_concat_file_model-0324_2_encrypted:$(TARGET_COPY_OUT_VENDOR)/etc/face3d/qcnn_concat_file_model-0324_2_encrypted \

@@ -1,5 +1,5 @@
 
-s21419Ì¶¹¢–
+s21419°·¹¢–
 	simyo IMSimspx5
 internet simyoorangeworldBorangeJorangePE
 	simyo MMS	orangemmsPZhttp://mms.orange.esb172.22.188.25j8080"˜

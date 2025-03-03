@@ -1,5 +1,5 @@
 
-s24024Ì¶¹¢"Ô
+s24024°·¹¢"Ô
 maxImageHeight˜
 maxImageWidth 
 maxMessageSize€À%

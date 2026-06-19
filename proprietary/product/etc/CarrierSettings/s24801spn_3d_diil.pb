@@ -1,11 +1,12 @@
 
-s24801spn_3d_diil€‘£§«(
+s24801spn_3d_diilÜÖ‰¬«(
 Diil Internetinternet.emt.eepxP
 Diil MMS
 mms.emt.eeZhttp://mms.emt.ee/servlets/mmsb217.71.32.82j8080px
 Diil IMSimspx
-	Diil XCAPhospx"‡ 
-allow_merging_rtt_calls_bool((
+	Diil XCAPhospx"© 
+allow_merging_rtt_calls_bool( 
+call_barring_visibility_bool((
 $carrier_default_wfc_ims_enabled_bool($
  carrier_default_wfc_ims_mode_int,
 (carrier_default_wfc_ims_roaming_mode_int9

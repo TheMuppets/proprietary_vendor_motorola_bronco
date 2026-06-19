@@ -1,8 +1,9 @@
 
-s24801€‘£§0.
+s24801ÜÖ‰¬0.
 EMT WAP
-wap.emt.ee2217.71.32.236:8080"‡ 
-allow_merging_rtt_calls_bool((
+wap.emt.ee2217.71.32.236:8080"© 
+allow_merging_rtt_calls_bool( 
+call_barring_visibility_bool((
 $carrier_default_wfc_ims_enabled_bool($
  carrier_default_wfc_ims_mode_int,
 (carrier_default_wfc_ims_roaming_mode_int9

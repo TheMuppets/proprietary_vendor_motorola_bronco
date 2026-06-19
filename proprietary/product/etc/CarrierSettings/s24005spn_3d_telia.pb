@@ -1,6 +1,7 @@
 
-s24005spn_3d_telia€‘£§"¤ 
-allow_merging_rtt_calls_bool((
+s24005spn_3d_teliaÜÖ‰¬"Æ 
+allow_merging_rtt_calls_bool( 
+call_barring_visibility_bool((
 $carrier_default_wfc_ims_enabled_bool($
  carrier_default_wfc_ims_mode_int,
 (carrier_default_wfc_ims_roaming_mode_int9

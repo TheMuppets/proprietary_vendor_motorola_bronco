@@ -1,5 +1,5 @@
 
-s20403imsi_3d_20403€‘£§1/
+s20403imsi_3d_20403ÜÖ‰¬1/
 MVNO NLinternet.mvno.mobiBmvnoJmvnoP"˜ 
 allow_merging_rtt_calls_bool(*
 &always_show_emergency_alert_onoff_bool(-
